@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+    background-color: #12181B;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 500px;
+    height: 500px;
+
+}
+
+.box {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.botton{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.left{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.playerX {
+    color: #09C372;
+}
+
+.playerO {
+    color: #498AFB;
+}
+
+.controls {
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+    left: 50%;
+    display: flex;
+    bottom: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    margin-top: 2px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}
